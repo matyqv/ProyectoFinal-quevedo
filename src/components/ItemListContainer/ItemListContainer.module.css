@@ -1,0 +1,4 @@
+.formato{
+    display: flex;
+    flex-direction: column;
+}

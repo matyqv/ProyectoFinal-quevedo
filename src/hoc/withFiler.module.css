@@ -1,0 +1,30 @@
+.inputFiltro{
+    height: 25px;
+    border-radius: 5px;
+    min-width: 200px;
+    width: 500px;
+    margin: 5px;
+}
+.buttonFiltro{
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 20px;
+    font: bolder;
+    color: rgb(3, 2, 2);
+    background-color: rgb(124, 103, 216);
+}.buttonFiltro:hover{
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 20px;
+    font: bolder;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+.ordenar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}

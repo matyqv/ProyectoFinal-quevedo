@@ -1,0 +1,23 @@
+.cardProduct{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding:13px;
+    margin: 2%;
+    width: 280px;
+  }
+  .cardProduct:hover{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding:13px;
+    margin: 2%;
+    background-color: bisque;
+  }  
+.itemList{
+    display: flex;         
+    flex-wrap: wrap;           
+    justify-content: center; 
+    align-content: center;
+    padding: 5px;
+}
+  
+  

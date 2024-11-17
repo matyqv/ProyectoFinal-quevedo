@@ -1,0 +1,11 @@
+.deleteButton{
+    background-color: rgb(211, 88, 88);
+    margin: 5px;
+    border :none;
+    border-radius: 5px;
+}.deleteButton:hover
+{    background-color: rgb(156, 59, 59); cursor: pointer; }
+.deleteButtonSize{
+  width: 80%;
+  height: 80%;
+}

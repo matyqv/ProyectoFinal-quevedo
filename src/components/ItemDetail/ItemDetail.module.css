@@ -1,0 +1,169 @@
+.Img{
+    width: 400px;
+    height: 400px;
+    padding: 2%;
+    border: 6px solid grey;
+    border-radius: 5%;
+    background-color: white;
+    margin-left:5%;
+}
+.name{
+    font-size: 450%;
+    margin: 2%;
+    text-align: center;
+}
+.ClaseHeroe{
+    background-color: rgb(231, 182, 118);
+    width: 100%;
+    text-align: center;
+    text-justify: auto;
+    font-size: 200%;
+    font-weight: bold;
+    border: 1px solid grey;
+}.ClaseVillano{
+    background-color: rgb(198, 132, 252);
+    width: 100%;
+    text-align: center;
+    text-justify: auto;
+    font-size: 200%;
+    font-weight: bold;
+    border: 1px solid grey;
+}.ClaseAnti-Heroe{
+    background-color: rgb(223, 114, 130);
+    width: 100%;
+    text-align: center;
+    text-justify: auto;
+    font-size: 200%;
+    font-weight: bold;
+    border: 1px solid grey;
+}
+
+.directionRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.price{
+    font-size: 400%;
+    border: 1px solid black;
+    margin: 5%;
+    padding: 5%;
+    width: 250px;
+}
+.description{
+    font-size: 30px;
+    width: 500px;
+    margin: 50px;
+}
+.centrarContenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 320px ) and (max-width: 425px){
+    .Img{
+        width: 200px;
+        height: 200px;
+        padding: 2%;
+        border: 6px solid grey;
+        border-radius: 5%;
+        background-color: white;
+        margin:0% 10%;
+    }
+    .directionRow{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .name{
+        font-size: 250%;
+        margin: 2%;
+        text-align: center;
+    }
+    .clase{
+        background-color: rgb(231, 182, 118);
+        width: 100%;
+        text-align: center;
+        text-justify: auto;
+        font-size: 100%;
+        margin: 3%;
+        font-weight: bold;
+        border: 1px solid grey;    
+    }
+    
+
+.description{
+    font-size: 20px;
+    width: 80%;
+}
+
+.price{
+    font-size: 200%;
+    border: 1px solid black;
+    border-radius:3px;
+    margin: 5%;
+    padding: 5%;
+    width: 150px;
+    text-align: center;
+}
+  }  
+
+  @media (min-width: 426px ) and (max-width: 1024px){
+    .Img{
+        width: 350px;
+        height: 350px;
+        padding: 1%;
+        border: 6px solid grey;
+        border-radius: 5%;
+        background-color: white;
+        margin:0% 10%;
+    }
+    .name{
+        font-size: 250%;
+        margin: 2%;
+        text-align: center;
+    }
+    .clase{
+        background-color: rgb(231, 182, 118);
+        width: 100%;
+        text-align: center;
+        text-justify: auto;
+        font-size: 100%;
+        margin: 3%;
+        font-weight: bold;
+        border: 1px solid grey;    
+    }
+    
+.directionRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.description{
+    font-size: 30px;
+    width: 80%;
+    margin: 20px;
+}
+
+.price{
+    font-size: 200%;
+    border: 1px solid black;
+    margin: 5%;
+    padding: 5%;
+    width: 150px;
+    text-align: center;
+}
+  }
+  
+  
+  @media (min-width: 1200px) {
+    .container {
+      width: 50%;
+      padding: 30px;
+    }
+  }

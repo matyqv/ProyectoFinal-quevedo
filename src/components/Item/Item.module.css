@@ -1,0 +1,65 @@
+.Img{
+    width: 230px;
+    height: 230px;
+    padding: 5%;
+    border: 6px solid grey;
+    border-radius: 5%;
+    background-color: white;
+}
+.Nombre{
+    font-size: 200%;
+    margin-top: 8%;
+    font-weight: bolder;
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.CardFormat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-items: center;
+}
+.ClaseHeroe{
+    background-color: rgb(231, 182, 118);
+    width: 115%;
+    text-align: center;
+    text-justify: auto;
+    font-size: 150%;
+    font-weight: bold;
+    border: 1px solid grey;
+}.ClaseVillano{
+    background-color: rgb(198, 132, 252);
+    width: 115%;
+    text-align: center;
+    text-justify: auto;
+    font-size: 150%;
+    font-weight: bold;
+    border: 1px solid grey;
+}.ClaseAnti-Heroe{
+    background-color: rgb(223, 114, 130);
+    width: 115%;
+    text-align: center;
+    text-justify: auto;
+    font-size: 150%;
+    font-weight: bold;
+    border: 1px solid grey;
+}
+.VerMasButton{
+    border-radius: 9%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    width: 120%;
+    height: 50px;
+    padding: 10%;
+    font-size: 25px;
+    font-weight: bold;
+    justify-items: center;
+    align-items: center;
+}
+.VerMasButton:hover{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}

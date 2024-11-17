@@ -1,0 +1,58 @@
+.formatCart{
+    display: grid;
+    grid-template-columns: 6fr 3fr 3fr 3fr 1fr; /* La primera columna es el doble del tamaño de las demás */
+    border:1px solid black;
+    padding:5px;
+    margin: 5px;
+}
+  
+.articulo{
+    display: contents; /* Esto permite que los divs hijos hereden el comportamiento de la cuadrícula */
+    border: 1px solid black;
+    width: 100vw;
+}
+.articulo p{
+  text-align: center;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.cabecera{
+    display: contents; /* Esto permite que los divs hijos hereden el comportamiento de la cuadrícula */
+    justify-content: space-around;
+}
+.cabecera p{
+  text-align: center;
+  padding: 20px;
+  margin:0px;
+  background-color: rgb(141, 186, 236);
+  border: 1px solid black;
+  font-size: 100wv;
+  
+  letter-spacing: 2px;
+  font-size: large;    
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Button{
+    background-color: rgb(168, 136, 219);
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    width: 70%;
+
+    font-size: medium;    
+    font-weight: bold;
+    text-align: center;
+
+    letter-spacing: 2px;
+    color: white;
+}.Button:hover
+{    background-color: rgb(123, 92, 173); cursor: pointer; }
